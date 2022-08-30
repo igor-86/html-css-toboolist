@@ -1,22 +1,49 @@
 /* Reset */
 *{margin: 0;padding: 0;box-sizing: border-box;}
-body{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f8f9;
 
-/* Font size */
+}
+
+/* Background color and color */
+.bg-blue{background-color: #47adf1;}
+
+/* Boreder radius */
+.bor-rad{
+    border-radius: 12px;
+}
+/* margin */
+.mt{
+    margin-top: 2em;
+}
+/* Color */
+a{
+    text-decoration: none;
+    color: white;
+}
+#color-button{
+    color: #d6d5d5;
+}
+.color-white{
+    color: white;
+}
 
 /* Header */
 .box-header{
-    width: 90%;
+    width: 100%;
     margin:auto;
     display: inline-block;
     height: 90px;
-    line-height: 80px;
+    line-height: 90px;
     vertical-align: middle;
-    padding: 5px 30px;
+    padding: 0px 30px;
+    background-color: white;
 }
 .box-header img{
     vertical-align: middle;
     height: 60px;
+    
 }
 .box-header h1{
     display: inline-block;
@@ -24,10 +51,42 @@ body{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
     line-height: 80px;
     height: 90px;
     font-size: 3rem;
+    
 }
 
 /* Main  */
+
+.box-main{
+    width: 70%;
+    margin: auto;
+    
+}
+
     /* Main-top */
+.box-main-top{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.box-button{
+    width: 90%;
+    margin: auto;
+
+}
+.box-main-top .button-one{
+    border: none;
+    padding: 9px 16px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+.box-main-top .button-two{
+    border: 1px solid #d6d5d5;
+    border-radius: 8px;
+    background-color: white;
+    color: rgb(214, 213, 213);
+    padding: 8px 15px;
+}
 
 
 
