@@ -3,11 +3,17 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f6f8f9;
-
 }
 
+/* IMPOSTAZIONI GENERALI CONDIVISE */
 /* Background color and color */
 .bg-blue{background-color: #47adf1;}
+.bg-violet{background-color: #9c72e4;}
+.bg-gr-one{background-color: #64c0a9;}
+.bg-orange{background-color: #f29e33;}
+.bg-pink{background-color: #d863a1;}
+.bg{background-color: #b0c926;}
+
 
 /* Boreder radius */
 .bor-rad{
@@ -17,10 +23,17 @@ body{
 .mt{
     margin-top: 2em;
 }
+.mb{
+    margin-bottom: 2em;
+}
 /* Color */
 a{
     text-decoration: none;
     color: white;
+}
+li{
+    list-style-type: none;
+    
 }
 #color-button{
     color: #d6d5d5;
@@ -28,6 +41,43 @@ a{
 .color-white{
     color: white;
 }
+/*Check*/
+.circle{
+    border: 1px solid green;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+#c_red{
+    border: 1px solid red;
+}
+#c_red span{
+    color: red;
+}
+.check{
+    color: green; 
+    font-size: 14px;
+ }
+
+/* Button li */
+.button-li{
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+}
+.triangle{
+    font-size: 12px;
+}
+.title-li{display: inline-block;}
+/* ______________________________ */
+
+
+
+
 
 /* Header */
 .box-header{
@@ -51,7 +101,6 @@ a{
     line-height: 80px;
     height: 90px;
     font-size: 3rem;
-    
 }
 
 /* Main  */
@@ -59,7 +108,6 @@ a{
 .box-main{
     width: 70%;
     margin: auto;
-    
 }
 
     /* Main-top */
@@ -87,6 +135,27 @@ a{
     color: rgb(214, 213, 213);
     padding: 8px 15px;
 }
+
+/* Main body */
+.box-main-body{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px ;
+    padding: 10px;
+    margin-top: 5px;
+}
+.box-body{
+    width: 90%;
+    margin: auto;
+}
+
+.list-li{
+    padding: 10px 0px;
+}
+.list-li h3{
+    display: inline-block;
+}
+
 
 
 
